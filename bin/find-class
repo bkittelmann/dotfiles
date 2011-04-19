@@ -1,0 +1,2 @@
+#!/usr/bin/env bash 
+find "$1" -name "*.jar" -a -exec bash -c "jar tvf {} | grep $2" \; -print
